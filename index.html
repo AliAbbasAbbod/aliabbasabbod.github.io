@@ -1,83 +1,45 @@
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ali Abbas Abbod | مطور تطبيقات</title>
-  <style>
-    body {
-      font-family: Tahoma, Arial, sans-serif;
-      background: #f5f7fb;
-      color: #1e293b;
-      margin: 0;
-      text-align: center;
-    }
-    header {
-      background: #153b73;
-      color: white;
-      padding: 45px 20px;
-    }
-    main { max-width: 900px; margin: 30px auto; padding: 15px; }
-    .apps {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-      gap: 18px;
-    }
-    .app {
-      background: white;
-      padding: 25px;
-      border-radius: 14px;
-      box-shadow: 0 3px 12px #00000012;
-    }
-    a { color: #1565c0; }
-    footer { padding: 30px; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="تطبيقات Ali Abbas Abbod لأجهزة Android في التعليم والإنتاجية وخدمة المجتمع.">
+<meta name="theme-color" content="#153b73">
+<title>Ali Abbas Abbod | مطور تطبيقات Android</title>
+<style>
+:root{color-scheme:light;--bg:#f5f7fb;--card:#fff;--text:#1e293b;--muted:#526176;--line:#dce3ed;--brand:#153b73;--link:#175fb3}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Tahoma,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.85}a{color:var(--link);text-underline-offset:4px}a:focus-visible,button:focus-visible{outline:3px solid #eea93b;outline-offset:5px}.wrap{width:min(1100px,calc(100% - 40px));margin:auto}.skip{position:absolute;top:-100px;background:white;padding:10px}.skip:focus{top:0}header{background:var(--brand);color:#fff}nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:22px 0;flex-wrap:wrap}nav a{color:white;text-decoration:none}nav .links{display:flex;gap:20px;align-items:center;flex-wrap:wrap}.brand{font-size:18px;font-weight:bold}button{font:inherit;cursor:pointer;border:1px solid #ffffff70;color:white;background:transparent;border-radius:8px;padding:5px 12px}.hero{padding:55px 0 75px;max-width:760px}.eyebrow{color:#bcd5fb;font-size:14px}h1{font-size:clamp(30px,5vw,49px);line-height:1.45;margin:14px 0}h2{font-size:27px;margin:0 0 8px}h3{font-size:20px;margin:12px 0 6px}.hero p{color:#dce8fa;font-size:18px}.primary{display:inline-block;background:#fff;color:#153b73;padding:10px 23px;border-radius:9px;text-decoration:none;font-weight:bold;margin-top:12px}section{padding:48px 0}.intro{color:var(--muted);margin:0 0 24px}.apps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.app{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);padding:25px;border-radius:16px;box-shadow:0 5px 18px #142c4d06}.symbol{display:grid;place-items:center;width:49px;height:49px;background:#eaf1fc;border-radius:12px;font-size:25px}.app p{color:var(--muted);margin:0 0 22px}.actions{margin-top:auto;display:flex;align-items:center;gap:12px;flex-wrap:wrap}.store{display:inline-block;background:var(--brand);color:#fff;padding:8px 15px;border-radius:8px;text-decoration:none;font-size:14px}.unavailable{font-size:13px;color:var(--muted)}.info{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px}.info p{color:var(--muted)}footer{border-top:1px solid var(--line);padding:25px 0;text-align:center;font-size:14px;color:var(--muted)}footer p{margin:3px}body.dark{color-scheme:dark;--bg:#0e1726;--card:#162337;--text:#e8eef8;--muted:#b4c1d5;--line:#2c3b51;--brand:#153b73;--link:#92c4ff}body.dark .symbol{background:#243954}@media(max-width:850px){.apps{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.wrap{width:calc(100% - 30px)}.apps{grid-template-columns:1fr}.hero{padding:30px 0 45px}nav .links{gap:14px;font-size:14px}section{padding:32px 0}.app{padding:22px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
 </head>
 <body>
-  <header>
-    <h1>Ali Abbas Abbod</h1>
-    <p>مطور تطبيقات Android</p>
-  </header>
-
-  <main>
-    <h2>تطبيقاتي</h2>
-    <div class="apps">
-      <div class="app">
-        <h3>أطباء ذي قار</h3>
-        <p>دليل الأطباء والعيادات في محافظة ذي قار.</p>
-        <a href="https://play.google.com/store/apps/details?id=com.ali.dhiqar_doctors">
-          عرض التطبيق
-        </a>
-      </div>
-      <div class="app">
-        <h3>سجل الحضور والتقييم</h3>
-         <a href="https://play.google.com/store/apps/details?id=com.ali.attendance_log">
-           عرض التطبيق
-         </a>
-       <p>إدارة الحضور والتقييم بسهولة.</p>
-      </div>
-      <div class="app">
-        <h3>ترقيتي العلمية</h3>
-        <p>مساعد الأكاديميين في الترقية العلمية.</p>
-      </div>
-      <div class="app">
-        <h3>ملاحظات اليوم</h3>
-         <a href="https://play.google.com/store/apps/details?id=com.aliabbas.daynote">
-           عرض التطبيق
-         </a>
-        <p>تنظيم الملاحظات والمهام اليومية.</p>
-      </div>
-      <div class="app">
-        <h3>تبادل مختبرين</h3>
-        <p>تسهيل التعاون في اختبار تطبيقات Android.</p>
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    <p>© 2026 Ali Abbas Abbod</p>
-    <p>جميع الحقوق محفوظة</p>
-  </footer>
+<a class="skip" href="#main">الانتقال إلى المحتوى</a>
+<header><div class="wrap">
+<nav aria-label="التنقل الرئيسي"><a href="#" class="brand" lang="en" dir="ltr">Ali Abbas Abbod</a><div class="links"><a href="#apps">تطبيقاتي</a><a href="#support">الدعم والخصوصية</a><button id="theme" type="button" aria-pressed="false" hidden>الوضع الليلي</button></div></nav>
+<div class="hero"><span class="eyebrow">تطوير تطبيقات Android</span><h1>تطبيقات تخدم يومك<br>وتسهّل أعمالك.</h1><p>أنا علي عباس عبود، مطوّر تطبيقات تهتم بالتعليم والإنتاجية وخدمة المجتمع.</p><a class="primary" href="#apps">استعرض تطبيقاتي</a></div>
+</div></header>
+<main id="main" class="wrap">
+<section id="apps" aria-labelledby="apps-title"><h2 id="apps-title">تطبيقاتي</h2><p class="intro">حلول بسيطة لاحتياجات يومية متنوعة.</p>
+<!-- رموز البطاقات توضيحية ويمكن استبدالها بأيقونات التطبيقات الأصلية. -->
+<div class="apps">
+<article class="app"><span class="symbol" aria-hidden="true">🩺</span><h3>أطباء ذي قار</h3><p>دليل الأطباء والعيادات في محافظة ذي قار، لتسهيل الوصول إلى معلومات العيادات والحجز.</p><div class="actions"><a class="store" href="https://play.google.com/store/apps/details?id=com.ali.dhiqar_doctors" aria-label="عرض أطباء ذي قار على Google Play">عرض على Google Play</a></div><!-- أضف رابط سياسة الخصوصية الحقيقي هنا. --></article>
+<article class="app"><span class="symbol" aria-hidden="true">📋</span><h3>سجل الحضور والتقييم</h3><p>تنظيم سجلات الحضور والتقييم ومتابعتها بسهولة.</p><div class="actions"><a class="store" href="https://play.google.com/store/apps/details?id=com.ali.attendance_log" aria-label="عرض سجل الحضور والتقييم على Google Play">عرض على Google Play</a></div><!-- أضف رابط سياسة الخصوصية الحقيقي هنا. --></article>
+<article class="app"><span class="symbol" aria-hidden="true">🎓</span><h3>ترقيتي العلمية</h3><p>مساعدة الأكاديميين على حساب نقاط الترقية العلمية وتنظيم متطلباتها.</p><div class="actions"><a class="store" href="https://play.google.com/store/apps/details?id=com.aliabbas.academicpromotion" aria-label="عرض ترقيتي العلمية على Google Play">عرض على Google Play</a></div><!-- أضف رابط سياسة الخصوصية الحقيقي هنا. --></article>
+<article class="app"><span class="symbol" aria-hidden="true">📝</span><h3>ملاحظات اليوم</h3><p>تدوين الملاحظات وترتيب المهام والأفكار اليومية في مكان واحد.</p><div class="actions"><a class="store" href="https://play.google.com/store/apps/details?id=com.aliabbas.daynote" aria-label="عرض ملاحظات اليوم على Google Play">عرض على Google Play</a></div><!-- أضف رابط سياسة الخصوصية الحقيقي هنا. --></article>
+<article class="app"><span class="symbol" aria-hidden="true">🤝</span><h3>تبادل مختبرين</h3><p>تسهيل التعاون بين مطوّري Android للوصول إلى مختبرين وجمع الملاحظات حول تطبيقاتهم.</p><div class="actions"><a class="store" href="https://play.google.com/store/apps/details?id=com.aliabbas.testerexchange" aria-label="عرض تبادل مختبرين على Google Play">عرض على Google Play</a><a href="https://play.google.com/apps/testing/com.aliabbas.testerexchange">الانضمام للاختبار</a></div><!-- أضف رابط سياسة الخصوصية الحقيقي هنا. --></article>
+<article class="app"><span class="symbol" aria-hidden="true">🧮</span><h3>حاسبة الراتب التقاعدي العراقي</h3><p>تقدير الراتب التقاعدي بحسب البيانات المدخلة. النتائج استرشادية، والتطبيق مستقل وغير تابع لجهة حكومية.</p><div class="actions"><span class="unavailable">سيُضاف رابط التطبيق لاحقًا</span></div><!-- استبدل العبارة برابط Google Play بعد تأكيد معرّف الحزمة، وأضف سياسة الخصوصية. --></article>
+</div></section>
+<section id="support" aria-labelledby="support-title"><div class="info"><h2 id="support-title">الدعم والخصوصية</h2><p>للاستفسارات أو الإبلاغ عن مشكلة، استخدم بيانات التواصل المتاحة في صفحة التطبيق على Google Play. ويمكن مراجعة سياسة الخصوصية من صفحة التطبيق عند توفرها.</p><!-- بعد توفير البريد الصحيح، أضف رابط mailto للدعم هنا. أضف رابط سياسة الخصوصية المؤكد إلى بطاقة كل تطبيق، ولا تستخدم روابط وهمية. --><p>قد تتطلب التطبيقات المتاحة ضمن الاختبار المغلق الانضمام إلى برنامج الاختبار والحصول على صلاحية الوصول قبل تنزيلها.</p></div></section>
+</main>
+<footer><div class="wrap"><p><bdi>© 2026 Ali Abbas Abbod</bdi></p><p>جميع الحقوق محفوظة</p></div></footer>
+<!-- اترك ملف app-ads.txt الحالي في جذر المستودع كما هو؛ هذه الصفحة لا تستبدله. -->
+<script>
+(function(){
+const button=document.getElementById('theme');button.hidden=false;
+let dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;
+try{const saved=localStorage.getItem('ali-theme');if(saved==='dark'||saved==='light')dark=saved==='dark';}catch(e){}
+function update(){document.body.classList.toggle('dark',dark);button.setAttribute('aria-pressed',String(dark));button.textContent=dark?'الوضع النهاري':'الوضع الليلي';}
+update();button.addEventListener('click',function(){dark=!dark;update();try{localStorage.setItem('ali-theme',dark?'dark':'light');}catch(e){}});
+})();
+</script>
 </body>
 </html>
